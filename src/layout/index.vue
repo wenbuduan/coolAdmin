@@ -51,7 +51,7 @@
     <router-layout />
     <!-- logo -->
     <template #logo>
-      <img src="@/assets/logo.jpg" />
+      <img src="@/assets/logo.svg" />
     </template>
     <template #logoTitle>
       <h1>{{ PROJECT_NAME }}</h1>

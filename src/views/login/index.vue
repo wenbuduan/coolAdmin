@@ -315,7 +315,7 @@
     padding: 32px 8px;
     box-sizing: border-box;
     background-color: #1681fd;
-    background-image: url('@/assets/login-img.jpg');
+    background-image: url('@/assets/login-img.png');
     // background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: bottom;

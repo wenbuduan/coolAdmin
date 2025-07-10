@@ -1,5 +1,19 @@
 /** 接口地址 */
-export const API_BASE_URL = import.meta.env.VITE_API_URL;
+const changeLocalUrl = () => {
+  const port = '1300';
+  //获取地址栏url
+  let localUrl = '';
+  if (window.location.host.includes(':')) {
+    localUrl = import.meta.env.VITE_API_URL;
+  } else {
+    localUrl =
+      window.location.protocol + '//' + window.location.host + ':' + port;
+  }
+  return localUrl;
+};
+
+// export const API_BASE_URL = import.meta.env.VITE_API_URL;
+export const API_BASE_URL = changeLocalUrl();
 
 /** 项目名称 */
 export const PROJECT_NAME = import.meta.env.VITE_APP_NAME;

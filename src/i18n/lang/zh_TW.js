@@ -10,7 +10,7 @@ export const zh_TW = {
       website: '官網',
       document: '檔案',
       authorization: '授權',
-      copyright: 'Copyright © 2025 武漢易雲智科技有限公司'
+      copyright: 'Copyright © 2025 zachariah'
     },
     logout: {
       title: '詢問',

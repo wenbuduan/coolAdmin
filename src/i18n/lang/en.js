@@ -10,7 +10,7 @@ export const en = {
       website: 'Website',
       document: 'Document',
       authorization: 'Authorization',
-      copyright: 'Copyright © 2025 Wuhan EClouds Technology Co., Ltd'
+      copyright: 'Copyright © 2025 zachariah'
     },
     logout: {
       title: 'Confirm',

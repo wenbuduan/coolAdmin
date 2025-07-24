@@ -48,5 +48,4 @@ export const MAP_KEY = '006d995d433058322319fa797f2876f5';
 
 /** EleAdminPlus授权码 */
 // export const LICENSE_CODE = import.meta.env.VITE_LICENSE;
-export const LICENSE_CODE =
-  'dk9mcwJyetRWQlxWRiojIiwiIzVHbQ5Wa6ICdjVmaiV3cklmIsATMygTMxwUbxMjWiojIzJXZ2JCLiEHbz4SMiojIu9Wa0nI0NW=';
+export const LICENSE_CODE = import.meta.env.VITE_LICENSE;
